@@ -5,19 +5,23 @@ DocFlow is a modern, feature-rich documentation platform that combines interacti
 ## 📸 Project Screenshots
 
 ### Homepage & Landing
-![DocFlow Homepage](./application/screenshots/Screenshot%202025-01-11%20at%208.07.44%20PM.png)
+<img src="https://raw.githubusercontent.com/ayushsrivastava55/DocFlow/main/application/screenshots/Screenshot%202025-01-11%20at%208.07.44%20PM.png" alt="DocFlow Homepage" width="800"/>
+
 *The modern and intuitive landing page of DocFlow, showcasing key features and easy navigation.*
 
 ### Documentation Interface
-![Documentation Interface](./application/screenshots/Screenshot%202025-01-11%20at%208.08.24%20PM.png)
+<img src="https://raw.githubusercontent.com/ayushsrivastava55/DocFlow/main/application/screenshots/Screenshot%202025-01-11%20at%208.08.24%20PM.png" alt="Documentation Interface" width="800"/>
+
 *Our comprehensive documentation interface with dynamic table of contents and interactive content.*
 
 ### AI Assistant Integration
-![AI Assistant Demo](./application/screenshots/Screenshot%202025-01-11%20at%208.09.04%20PM.png)
+<img src="https://raw.githubusercontent.com/ayushsrivastava55/DocFlow/main/application/screenshots/Screenshot%202025-01-11%20at%208.08.39%20PM.png" alt="AI Assistant Demo" width="800"/>
+
 *The AI-powered assistant providing context-aware help and documentation support.*
 
 ### Code Playground
-![Code Playground]()(./application/screenshots/Screenshot%202025-01-11%20at%208.08.39%20PM.png)
+<img src="https://raw.githubusercontent.com/ayushsrivastava55/DocFlow/main/application/screenshots/Screenshot%202025-01-11%20at%208.09.04%20PM.png" alt="Code Playground" width="800"/>
+
 *Interactive code playground with syntax highlighting and real-time execution capabilities.*
 
 ## 🌟 Key Features
