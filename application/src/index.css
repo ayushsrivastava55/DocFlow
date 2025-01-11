@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+
+  h1 {
+    @apply text-4xl font-bold;
+  }
+
+  h2 {
+    @apply text-2xl font-semibold;
+  }
+
+  h3 {
+    @apply text-xl font-semibold;
+  }
+}
+
+@keyframes highlight-fade {
+  0% {
+    background-color: rgba(59, 130, 246, 0.1);
+    border-left: 4px solid #3b82f6;
+  }
+  100% {
+    background-color: transparent;
+    border-left: 4px solid transparent;
+  }
+}
+
+.highlight-section {
+  animation: highlight-fade 2s ease-out forwards;
+  padding-left: 1rem;
+  margin-left: -1rem;
+}
+
+.dark .highlight-section {
+  animation: highlight-fade-dark 2s ease-out forwards;
+}
+
+@keyframes highlight-fade-dark {
+  0% {
+    background-color: rgba(59, 130, 246, 0.2);
+    border-left: 4px solid #3b82f6;
+  }
+  100% {
+    background-color: transparent;
+    border-left: 4px solid transparent;
+  }
+}
