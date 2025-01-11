@@ -5,22 +5,22 @@ DocFlow is a modern, feature-rich documentation platform that combines interacti
 ## 📸 Project Screenshots
 
 ### Homepage & Landing
-<img src="https://raw.githubusercontent.com/ayushsrivastava55/DocFlow/main/application/screenshots/Screenshot%202025-01-11%20at%208.07.44%20PM.png" alt="DocFlow Homepage" width="800"/>
+<img src="https://github.com/ayushsrivastava55/DocFlow/blob/main/application/screenshots/Screenshot%202025-01-11%20at%208.07.44%E2%80%AFPM.png" alt="DocFlow Homepage" width="800"/>
 
 *The modern and intuitive landing page of DocFlow, showcasing key features and easy navigation.*
 
 ### Documentation Interface
-<img src="https://raw.githubusercontent.com/ayushsrivastava55/DocFlow/main/application/screenshots/Screenshot%202025-01-11%20at%208.08.24%20PM.png" alt="Documentation Interface" width="800"/>
+<img src="https://github.com/ayushsrivastava55/DocFlow/blob/main/application/screenshots/Screenshot%202025-01-11%20at%208.08.24%E2%80%AFPM.png" alt="Documentation Interface" width="800"/>
 
 *Our comprehensive documentation interface with dynamic table of contents and interactive content.*
 
 ### AI Assistant Integration
-<img src="https://raw.githubusercontent.com/ayushsrivastava55/DocFlow/main/application/screenshots/Screenshot%202025-01-11%20at%208.08.39%20PM.png" alt="AI Assistant Demo" width="800"/>
+<img src="https://github.com/ayushsrivastava55/DocFlow/blob/main/application/screenshots/Screenshot%202025-01-11%20at%208.08.39%E2%80%AFPM.png" alt="AI Assistant Demo" width="800"/>
 
 *The AI-powered assistant providing context-aware help and documentation support.*
 
 ### Code Playground
-<img src="https://raw.githubusercontent.com/ayushsrivastava55/DocFlow/main/application/screenshots/Screenshot%202025-01-11%20at%208.09.04%20PM.png" alt="Code Playground" width="800"/>
+<img src="https://github.com/ayushsrivastava55/DocFlow/blob/main/application/screenshots/Screenshot%202025-01-11%20at%208.09.04%E2%80%AFPM.png" alt="Code Playground" width="800"/>
 
 *Interactive code playground with syntax highlighting and real-time execution capabilities.*
 
