@@ -193,46 +193,68 @@ DocFlow leverages the powerful WorqHat AI APIs extensively throughout the applic
 - **Documentation Assistant**: Uses WorqHat's Text Generation API to provide context-aware responses to user queries about documentation
 - **Code Explanation**: Generates human-readable explanations of complex code snippets
 - **Error Resolution**: Helps users understand and fix code errors with detailed explanations
-- **Model Used**: `text-davinci-003` for high-quality, contextual responses
+- **Model Used**: `aion-v4-nano-160824` for quick and efficient text generation, optimized for resource efficiency
 
 ### 2. Code Generation API
 
 - **Code Suggestions**: Provides intelligent code completions and suggestions
 - **Code Refactoring**: Helps improve code quality with automated refactoring suggestions
 - **Test Case Generation**: Automatically generates test cases for code snippets
-- **Model Used**: `code-davinci-002` for accurate and context-aware code generation
+- **Model Used**: `aion-v4-nano-160824` with fine-tuning for programming-specific tasks
 
 ### 3. Text Processing API
 
 - **Documentation Analysis**: Processes and understands documentation content
 - **Smart Search**: Powers the intelligent search functionality with semantic understanding
 - **Content Summarization**: Creates concise summaries of documentation sections
-- **Model Used**: `text-curie-001` for efficient text processing
+- **Model Used**: `aion-v4-nano-160824` optimized for fast and accurate text processing
 
-### Key Benefits of WorqHat Integration
+### 4. Image Generation API
+- **Flowchart Visualization**: Enhances flowcharts with auto-generated visual elements
+- **Documentation Graphics**: Creates relevant illustrations for documentation
+- **Model Used**: `aion-v4-nano-160824` for consistent and contextual image generation
 
-1. **Enhanced User Experience**
+### Why We Chose WorqHat's `aion-v4-nano-160824`
 
-   - Real-time AI assistance
-   - Context-aware responses
-   - Natural language interaction
+Our platform leverages WorqHat's `aion-v4-nano-160824` model across all AI features because:
+- **Resource Efficiency**: Optimized for quick responses while maintaining high quality
+- **Fine-tuned Capabilities**: Includes specialized training for programming and documentation tasks
+- **Consistent Performance**: Provides reliable results across different types of queries
+- **Cost-effective**: Balanced performance and resource usage for production environments
 
-2. **Improved Documentation Quality**
+### Advanced Capabilities of AiCon V4
 
-   - Automated content enhancement
-   - Consistent formatting
-   - Error detection and correction
+The `aion-v4-nano-160824` model is part of WorqHat's AiCon V4 family, which brings several groundbreaking features:
 
-3. **Development Efficiency**
+1. **Multimodal Processing**
+   - Processes multiple types of inputs (text, images, videos)
+   - Enables comprehensive understanding of context
+   - Delivers more accurate and insightful responses
+   - Creates a more natural, human-like interaction
 
-   - Faster code writing with suggestions
-   - Automated documentation generation
-   - Quick error resolution
+2. **Enhanced Context Management**
+   - Massive 750K token window
+   - 90% recall rate for accurate information retention
+   - Advanced retrieval mechanism for near-infinite context
+   - Maintains conversation history automatically
 
-4. **Learning Enhancement**
-   - Interactive learning experience
-   - Personalized explanations
-   - Adaptive content delivery
+3. **Conversation-First Design**
+   - Automatic conversation tracking
+   - Eliminates need for repeated explanations
+   - Maintains context across multiple interactions
+   - Focuses on natural dialogue flow
+
+4. **Technical Excellence**
+   - Built for production-grade performance
+   - Optimized for resource efficiency
+   - Seamless integration capabilities
+   - Robust error handling and recovery
+
+These capabilities make AiCon V4 particularly well-suited for DocFlow's documentation and assistance features, enabling us to provide:
+- More intuitive documentation generation
+- Context-aware code assistance
+- Intelligent search and retrieval
+- Natural conversational interactions
 
 ## Security
 
