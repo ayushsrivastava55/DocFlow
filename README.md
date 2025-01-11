@@ -271,4 +271,4 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 - WorqHat for providing the AI capabilities
 - The open-source community for various tools and libraries
-- All contributors who have helped shape this project
+
