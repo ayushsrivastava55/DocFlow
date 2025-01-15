@@ -141,7 +141,7 @@ npm run dev
 
 ## Component Details
 
-### Core Components
+
 
 1. **CodePlayground**
 
