@@ -26,7 +26,7 @@ const TableOfContents = () => {
           {hasSubsections && (
             <button
               onClick={() => toggleSection(section.title)}
-              className="p-1 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+              className="p-1 text-white hover:text-green-400 transition-colors duration-200"
             >
               <svg
                 className={`w-4 h-4 transform transition-transform ${isExpanded ? 'rotate-90' : ''}`}
@@ -45,20 +45,14 @@ const TableOfContents = () => {
           )}
           <a
             href={`#${sectionId}`}
-            className={`py-1 px-2 text-sm hover:text-blue-500 dark:hover:text-blue-400 ${
+            className={`py-1 px-2 text-sm text-white hover:text-green-400 transition-colors duration-200 ${
               level === 0 ? 'font-medium' : ''
             } group-hover:underline`}
             onClick={(e) => {
               e.preventDefault();
               const element = document.getElementById(sectionId);
               if (element) {
-                const headerOffset = 80;
-                const elementPosition = element.getBoundingClientRect().top;
-                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-                window.scrollTo({
-                  top: offsetPosition,
-                  behavior: 'smooth'
-                });
+                element.scrollIntoView({ behavior: 'smooth' });
               }
             }}
           >
@@ -67,7 +61,7 @@ const TableOfContents = () => {
         </div>
         {hasSubsections && isExpanded && (
           <div className="mt-1">
-            {section.subsections.map(subsection =>
+            {section.subsections.map((subsection) =>
               renderSectionLink(subsection, level + 1)
             )}
           </div>
@@ -76,13 +70,15 @@ const TableOfContents = () => {
     );
   };
 
-  if (!documentation?.sections) return null;
+  if (!documentation || !documentation.sections) {
+    return null;
+  }
 
   return (
-    <nav className="toc-nav sticky top-24 overflow-y-auto max-h-[calc(100vh-8rem)] bg-white dark:bg-gray-800 rounded-lg p-4 border border-gray-200 dark:border-gray-700">
-      <h2 className="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Table of Contents</h2>
+    <nav className="p-4 bg-gray-900 rounded-lg">
+      <h2 className="text-2xl font-bold mb-4 text-white">Table of Contents</h2>
       <div className="space-y-2">
-        {documentation.sections.map(section => renderSectionLink(section))}
+        {documentation.sections.map((section) => renderSectionLink(section))}
       </div>
     </nav>
   );
