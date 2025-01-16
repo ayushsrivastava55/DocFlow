@@ -5,6 +5,7 @@ import Documentation from './pages/Documentation';
 import Progress from './pages/Progress';
 import Community from './pages/Community';
 import Quiz from './pages/Quiz';
+import FlowchartExplanation from './components/FlowchartExplanation';
 import { ThemeProvider } from './context/ThemeContext';
 import { DocumentationProvider } from './context/DocumentationContext';
 
@@ -19,6 +20,8 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/documentation" element={<Documentation />} />
+                <Route path="/documentation/:docId" element={<Documentation />} />
+                <Route path="/flowchart-explanation" element={<FlowchartExplanation />} />
                 <Route path="/quiz" element={<Quiz />} />
                 <Route path="/progress" element={<Progress />} />
                 <Route path="/community" element={<Community />} />

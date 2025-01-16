@@ -16,6 +16,7 @@
     "@monaco-editor/react": "^4.6.0",
     "@uiw/react-codemirror": "^4.21.9",
     "axios": "^1.7.9",
+    "cytoscape": "^3.31.0",
     "dotenv": "^16.4.7",
     "marked": "^15.0.6",
     "mermaid": "^11.4.1",
